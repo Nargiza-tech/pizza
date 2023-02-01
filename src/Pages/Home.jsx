@@ -5,8 +5,8 @@ import PizzaBlock from "../PizzaBlock/PizzaBlock";
 import Pagination from "../Pagination/Pagination";
 import {useDispatch, useSelector} from "react-redux";
 
-import {selectFilter, setCategoryId, setFilter, setPageCount, setSort} from "../Redux/Slices/FilterSlice";
-import Categories from "../Cotigori/Cotigories";
+import {selectFilter, setCategoryId, setFilter, setPageCount, setSort} from "../businessStore/Slices/FilterSlice";
+import Categories from "../Cotigori/Cotigories.jsx";
 import qs from 'qs';
 import {useNavigate} from "react-router";
 import {fetchPizzas, selectPizzaData} from "../Redux/Slices/PizzasSlise";
