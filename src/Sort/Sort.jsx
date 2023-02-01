@@ -1,5 +1,5 @@
 import React from 'react';
-import {selectSort, setSort} from "../Redux/Slices/FilterSlice";
+import {selectSort, setSort} from "../businessStore/Slices/FilterSlice";
 import {useDispatch, useSelector} from "react-redux";
 
 
