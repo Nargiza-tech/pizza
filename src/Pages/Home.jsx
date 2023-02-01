@@ -1,15 +1,12 @@
 import React from 'react';
-import Cotigories from "../Cotigories/Cotigories";
 import Sort, {sortList} from "../Sort/Sort";
 import Skeleton from "../PizzaBlock/Skeleton";
 import PizzaBlock from "../PizzaBlock/PizzaBlock";
-import ReactPaginate from 'react-paginate';
 import Pagination from "../Pagination/Pagination";
 import {useDispatch, useSelector} from "react-redux";
 
 import {selectFilter, setCategoryId, setFilter, setPageCount, setSort} from "../Redux/Slices/FilterSlice";
-import axios from "axios";
-import Categories from "../Cotigories/Cotigories.jsx";
+import Categories from "../Cotigori/Cotigories";
 import qs from 'qs';
 import {useNavigate} from "react-router";
 import {fetchPizzas, selectPizzaData} from "../Redux/Slices/PizzasSlise";
