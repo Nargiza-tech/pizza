@@ -9,7 +9,7 @@ import {selectFilter, setCategoryId, setFilter, setPageCount, setSort} from "../
 import Categories from "../Cotigori/Cotigories.jsx";
 import qs from 'qs';
 import {useNavigate} from "react-router";
-import {fetchPizzas, selectPizzaData} from "../Redux/Slices/PizzasSlise";
+import {fetchPizzas, selectPizzaData} from "../businessStore/Slices/PizzasSlise";
 
 const Home = () => {
 
