@@ -9,7 +9,7 @@ import {useDispatch, useSelector} from "react-redux";
 
 import {selectFilter, setCategoryId, setFilter, setPageCount, setSort} from "../Redux/Slices/FilterSlice";
 import axios from "axios";
-import Categories from "../Cotigories/Cotigories";
+import Categories from "../Cotigories/Cotigories.jsx";
 import qs from 'qs';
 import {useNavigate} from "react-router";
 import {fetchPizzas, selectPizzaData} from "../Redux/Slices/PizzasSlise";
