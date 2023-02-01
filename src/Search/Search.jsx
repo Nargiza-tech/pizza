@@ -4,7 +4,7 @@ import search from '../../src/assets/img/4092559_search_magnifier_mobile ui_zoom
 import close from '../assets/img/close.svg';
 import debounce from 'lodash.debounce';
 import {useDispatch} from "react-redux";
-import {setSearchValue} from "../Redux/Slices/FilterSlice";
+import {setSearchValue} from "../businessStore/Slices/FilterSlice";
 
 
 const Search = () => {
